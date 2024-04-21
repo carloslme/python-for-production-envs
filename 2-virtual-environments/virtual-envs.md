@@ -70,6 +70,24 @@ It also creates a `bin` (or Scripts on Windows) subdirectory containing a copy/s
     source venv/bin/activate
     ```
 
+### How to create a `venv` in Linux
+
+* `cd` to your project directory and run `venv` to create the new virtual environment.
+
+* The following commands will create a new virtual environment under my-project/venv.
+
+    ```bash
+    cd my-project
+    python -m venv venv
+    ```
+
+* Activate the `venv`
+    Now that we have a virtual environment, we need to activate it.
+
+    ```bash
+    source venv/bin/activate
+    ```
+
 ## Install libraries with `requirements.txt`
 
 The `requirement.txt` file serve as a list of items to be installed by [`pip`](https://realpython.com/what-is-pip/). Files that use this format are often called `requirements.txt`, although, that is not a requirement. Check [this](https://pip.pypa.io/en/stable/reference/requirements-file-format/) out to learn more about it.
