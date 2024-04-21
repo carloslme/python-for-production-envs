@@ -6,8 +6,7 @@ It is quite important because it allows you to separate different package versio
 
 ## Prerequisites
 
-* Installed Python 3.7
-* Installed Python 3.11
+* An installed version of Python, it could be 3.7,..., 3.11
 
 ## Available options
 
@@ -29,11 +28,12 @@ python -m venv venv
 
 Running this command creates the target directory (creating any parent directories that don’t exist already) and places a pyvenv.cfg file in it with a home key pointing to the Python installation from which the command was run (a common name for the target directory is `venv` or `.venv`).
 
-![venv.png](./images/venv.png)
+![venv.png](https://github.com/carloslme/python-for-production-envs/blob/main/2-virtual-environments/images/venv.png?raw=true)
+
 
 It also creates a `bin` (or Scripts on Windows) subdirectory containing a copy/symlink of the Python binary/binaries (as appropriate for the platform or arguments used at environment creation time). It also creates an (initially empty) `lib/pythonX.Y/site-packages` subdirectory (on Windows, this is `Lib\site-packages`). If an existing directory is specified, it will be re-used.
 
-![venv1.png](./images/venv1.png)
+![venv1.png](https://github.com/carloslme/python-for-production-envs/blob/main/2-virtual-environments/images/venv1.png?raw=true)
 
 ### How to create a `venv` in Windows
 
@@ -50,7 +50,7 @@ It also creates a `bin` (or Scripts on Windows) subdirectory containing a copy/s
     venv\Scripts\activate.ps1
     ```
 
-    ![venv_activate.png](./images/venv_activate.png)
+    ![venv_activate.png](https://github.com/carloslme/python-for-production-envs/blob/main/2-virtual-environments/images/venv_activate.png?raw=true)
 
 ### How to create a `venv` in MacOS
 
